@@ -23,13 +23,13 @@ client.on("ready", () => {
   client.user.setStatus("idle");
   client.user.setActivity(`by ➹〖فتحي〗👑#0444`, { type: "playing" });
 });
-client.on ('message', async (FireKing) => {
-  if (!FireKing.guild || FireKing.author.bot) return false;
+client.on ('message', async (Fathy) => {
+  if (!Fathy.guild || Fathy.author.bot) return false;
   var prefix = '#';
-  if (FireKing.content == prefix + 'ping') {
-    const msg = await FireKing.channel.send ("pong");
+  if (Fathy.content == prefix + 'ping') {
+    const msg = await Fathy.channel.send ("pong");
     msg.delete ();
-    FireKing.channel.send (`\`\`\`javascript\nDiscord API: ${Math.round (client.ping)}ms\nTime taken: ${msg.createdTimestamp - FireKing.createdTimestamp}\n\`\`\` `)
+    Fathy.channel.send (`\`\`\`javascript\nDiscord API: ${Math.round (client.ping)}ms\nTime taken: ${msg.createdTimestamp - Fathy.createdTimestamp}\n\`\`\` `)
   }
 })
 client.on("message", message => {
