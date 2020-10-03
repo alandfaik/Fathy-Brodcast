@@ -1,5 +1,5 @@
 {
-  "main": "index.js",
+  "main": "Brodcast.js",
   "dependencies": {
     "discord.js": "^11.3.2",
     "express": "^4.17.1",
