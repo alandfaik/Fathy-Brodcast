@@ -18,7 +18,7 @@ console.log('[ BOT IS ONLINE ]')
 console.log('Brodcast')
 console.log('by ➹〖فتحي〗👑#0444')
 });
-client.login("");
+client.login("NzkyMzQwNTQxNzc3NTEwNDIw.X-cSog.HH2vo1xBdaBE85FysR5pCQk8LIY");
 client.on("ready", () => {
   client.user.setStatus("idle");
   client.user.setActivity(`by ➹〖فتحي〗👑#0444`, { type: "playing" });
